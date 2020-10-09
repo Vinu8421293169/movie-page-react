@@ -1,6 +1,5 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
 }
 
 .card {
@@ -11,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  margin: 20px;
 }
 
 .card:hover {
@@ -19,12 +18,14 @@
 }
 
 .container {
-  padding: 2px 16px;
+  width: 40%;
+  padding: 10px 20px;
+  width: 100%;
 }
 
 img {
-  height: 300px;
-  widows: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 .red {
